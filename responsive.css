@@ -1,0 +1,48 @@
+@media only screen and (max-width: 768px) {
+    nav{
+        display: none;
+    }
+    .firstLine{
+        display: grid;
+        grid-template-columns: repeat(2, 300px) ;
+        grid-template-rows: repeat(1, 500px);
+    
+    }
+    .secondLine{
+        display: grid;
+        grid-template-columns: repeat(2, 300px);
+        grid-template-rows: repeat(1, 500px);
+    }
+    button:hover, a{
+        transform: scale(1.1);
+    }
+    i{
+        opacity: 1;
+    }
+}
+@media only screen and (max-width: 500px) {
+    nav{
+        display: none;
+    margin-right: 5px;    
+    }
+    .firstLine{
+        display: grid;
+        grid-template-columns: repeat(2, 210px) ;
+        grid-template-rows: repeat(1, 500px);
+    
+    }
+    .secondLine{
+        display: grid;
+        grid-template-columns: repeat(2, 210px);
+        grid-template-rows: repeat(1, 500px);
+    }
+    button:hover, a{
+        transform: scale(1.1);
+    }
+    i{
+        opacity: 1;
+    }
+    div{
+        overflow: scroll;
+    }
+}
